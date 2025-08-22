@@ -48,3 +48,6 @@ h2 {
     margin: 10px;
 }
 
+.justify-center {
+    justify-content: center;
+}

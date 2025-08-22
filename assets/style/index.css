@@ -21,13 +21,13 @@ section {
 
 h2 {
     margin-bottom: 15px;
-    color: rgb(155, 139, 196);
+    color: #598d83;
 }
 
 .flex-container {
     width: 90%;
     height: 200px;
-    background-color: rgb(210, 206, 255);
+    background-color:#b9f0e4;
     margin: 0 auto 20px;
     display: flex;
     justify-content:flex-start;
@@ -38,7 +38,7 @@ h2 {
 .flex-item {
     width: 80px;
     height: 80px;
-    background-color: rgb(186, 180, 245);
+    background-color: #9ad1c6;
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     display: flex;
@@ -54,4 +54,12 @@ h2 {
 
 .justify-end {
     justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
 }

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nata Sans", sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: rgb(155, 139, 196);
+}
+
+.flex-container {
+    width: 90%;
+    height: 200px;
+    background-color: rgb(210, 206, 255);
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(186, 180, 245);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 10px;
+}
+

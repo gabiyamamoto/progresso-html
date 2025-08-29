@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.retangulo {
+    width: 400px;
+    height: 200px;
+    background-color:#b9f0e4;
+    align-items: center;
+    margin: 50px auto;
+}

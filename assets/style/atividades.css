@@ -38,32 +38,58 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto 30px;
-    gap: 20px;
+    gap: 28px;
     align-items: center;
     background-color: #363636;
-    padding: 20px;
-    height: 500px;
-    width: 200px;
+    padding: 30px;
+    height: 580px;
+    width: 220px;
+    padding-bottom: 45px;
+    padding-right: 35px;
     border-radius: 25px;
+    margin-bottom: 0;
+}
+
+.cabo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 30px;
+    align-items: center;
+    background-color: #363636;
+    height: 550px;
+    width: 60px;
 }
 
 .sinal {
     width: 150px;
     height: 150px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .vermelho {
     background-color: rgb(255, 0, 0);
-    box-shadow: 10px 6px 7px 8px rgba(180, 0, 0, 1);
+    box-shadow: 10px 2px 7px 7px rgba(180, 0, 0, 1);
+}
+
+.vermelho:hover {
+    background-color: rgba(180, 0, 0, 1);
 }
 
 .amarelo {
     background-color: rgb(255, 230, 0);
-    box-shadow: 10px 6px 7px 8px rgb(180, 132, 0);
+    box-shadow: 10px 2px 7px 7px rgb(180, 132, 0);
+}
+
+.amarelo:hover {
+    background-color: rgb(180, 132, 0);
 }
 
 .verde1 {
     background-color: rgb(12, 218, 12);
-    box-shadow: 10px 6px 7px 8px rgb(11, 151, 23);
+    box-shadow: 10px 2px 7px 7px rgb(11, 151, 23);
+}
+
+.verde1:hover {
+    background-color: rgb(11, 151, 23);
 }

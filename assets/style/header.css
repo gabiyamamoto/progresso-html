@@ -5,17 +5,17 @@
 }
 
 header {
-    background-color: #f6e9b1;
-    color: 	#ff7755;
+    background-color: #516e4f;
+    color: #fbf8e9;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.Logo {
-    font-size: 26px;
-    font-weight: bold;
+.imagem {
+    width: 70px;
+    height: 70px;
 }
 
 .menu {
@@ -24,12 +24,12 @@ header {
 }
 
 .menu a {
-    color: 	#ff7755;
+    color: #fbf8e9;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;
 }
 
 .menu a:hover {
-    color: 	#fb452b;
+    color: #E1C1C6;
 }
